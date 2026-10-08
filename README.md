@@ -12,7 +12,7 @@ uma de 5 ações, sempre com uma justificativa explicável.
 
 ---
 
-## Como rodar - Fala professor, achou o easteregg do trabalho, não se esqueça de rodar os comandos no python 3.12 para não dar erro. Tenha um ótimo dia com uma xicara de café!!
+## Como rodar - Rodar os comandos no python 3.12 para não dar erro.
 
 ```bash
 pip install -r requirements.txt
