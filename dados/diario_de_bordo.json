@@ -1,0 +1,50 @@
+[
+  {
+    "numero": 1,
+    "horario": "25/09/2026 - 14:26",
+    "local": "Indaiatuba - SP",
+    "coordenadas": [
+      -23.09,
+      -47.21
+    ],
+    "comando": "guidão status trecho",
+    "estado_voz": "normal",
+    "confianca_voz": 57.7,
+    "imagem_classificada": "estrada",
+    "confianca_imagem": 44.0,
+    "decisao_random_forest": "CONTINUAR",
+    "confianca_decisao": 90.5,
+    "justificativa": "Nenhum fator crítico: seguir viagem com segurança.",
+    "foto": "registro_001.jpg",
+    "contexto": {
+      "tempo_desde_ultima_parada_min": 0,
+      "distancia_total_km": 0,
+      "paradas_feitas": 0,
+      "hora_do_dia": 14
+    }
+  },
+  {
+    "numero": 2,
+    "horario": "25/09/2026 - 14:27",
+    "local": "Itu - SP",
+    "coordenadas": [
+      -23.26,
+      -47.3
+    ],
+    "comando": "guidão simular viagem longa",
+    "estado_voz": "irritado",
+    "confianca_voz": 47.1,
+    "imagem_classificada": "estrada",
+    "confianca_imagem": 44.0,
+    "decisao_random_forest": "FAZER_UMA_PARADA",
+    "confianca_decisao": 97.0,
+    "justificativa": "O motorista deve descansar: a voz indica irritado e já são 160 min sem parar.",
+    "foto": "registro_002.jpg",
+    "contexto": {
+      "tempo_desde_ultima_parada_min": 160,
+      "distancia_total_km": 180,
+      "paradas_feitas": 0,
+      "hora_do_dia": 14
+    }
+  }
+]

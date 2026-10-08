@@ -1,0 +1,7 @@
+# Dependência do CLASSIFICADOR DE IMAGEM (treino + uso), em PyTorch.
+# Reaproveita o torch que você já instalou para a emoção — SEM TensorFlow.
+# Instale quando for treinar/usar a imagem:
+#     py -3.12 -m pip install -r requirements-imagem.txt
+torch
+torchvision
+pillow

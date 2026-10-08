@@ -1,0 +1,21 @@
+# --- Núcleo da decisão (obrigatório) ---
+scikit-learn
+pandas
+numpy
+joblib
+
+# --- Voz (reconhecimento + emoção) ---
+SpeechRecognition
+PyAudio            # captura do microfone (no Windows: pip install pipwin && pipwin install pyaudio)
+librosa            # extração de características do áudio para a emoção
+
+# --- Imagem: captura da webcam (leve) ---
+opencv-python
+requests           # baixar imagens de licença aberta (treino/baixar_imagens.py)
+
+# O classificador de imagem (treino + uso) fica em requirements-imagem.txt,
+# porque depende de uma biblioteca pesada. Instale-o à parte quando for treinar
+# a imagem. O sistema roda sem ele (imagem em modo simulado).
+
+# Observação: o sistema roda mesmo sem as libs de voz/imagem instaladas —
+# nesse caso ele cai no MODO SIMULADO automaticamente (útil para testes).

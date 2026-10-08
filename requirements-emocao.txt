@@ -1,0 +1,10 @@
+# Dependências para a EMOÇÃO com modelo PRÉ-TREINADO (wav2vec2).
+# São pesadas (torch ~1 GB) e, na 1ª execução, baixam o modelo (~360 MB) da
+# internet. Instale SÓ se for usar esse caminho (recomendado — dispensa treino).
+#
+#     pip install -r requirements-emocao.txt
+#
+torch>=2.2
+transformers>=4.40
+huggingface-hub>=0.26
+librosa            # usada para carregar o áudio a 16 kHz
